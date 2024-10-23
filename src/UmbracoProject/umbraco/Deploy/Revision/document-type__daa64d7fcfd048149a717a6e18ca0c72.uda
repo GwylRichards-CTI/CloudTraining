@@ -13,11 +13,16 @@
       "umb://document-type/74d15c0d878541f0b87c99a576c16ce5"
     ]
   },
+  "ListView": "c0808dd3-8133-4e4b-8ce8-e2bea84a96a4",
   "CompositionContentTypes": [],
   "PropertyGroups": [],
   "PropertyTypes": [],
   "Udi": "umb://document-type/daa64d7fcfd048149a717a6e18ca0c72",
   "Dependencies": [
+    {
+      "Udi": "umb://data-type/c0808dd381334e4b8ce8e2bea84a96a4",
+      "Mode": "Exist"
+    },
     {
       "Udi": "umb://document-type/74d15c0d878541f0b87c99a576c16ce5"
     },
