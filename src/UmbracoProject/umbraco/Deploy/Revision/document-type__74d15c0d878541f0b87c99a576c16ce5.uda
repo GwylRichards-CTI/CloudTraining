@@ -1,0 +1,67 @@
+{
+  "Name": "Blog",
+  "Alias": "blog",
+  "DefaultTemplate": "umb://template/0fede2a9ca3e4ccba2b169236134a786",
+  "AllowedTemplates": [
+    "umb://template/0fede2a9ca3e4ccba2b169236134a786"
+  ],
+  "HistoryCleanup": {},
+  "Icon": "icon-notepad",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "d083bbeb-2c75-4811-87b8-a7d1a3bc8678",
+      "Name": "Content",
+      "Type": 1,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "5133b14e-c09b-4dbe-a438-62e6777806f6",
+          "Alias": "bodyText",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Name": "Body Text",
+          "SortOrder": 1
+        },
+        {
+          "Key": "c1c8c318-2c7d-44cf-b7f2-db763c435a91",
+          "Alias": "categories",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Name": "Categories",
+          "SortOrder": 2
+        },
+        {
+          "Key": "f9262c07-7832-4b99-8e78-f6ddf0eacfca",
+          "Alias": "summary",
+          "DataType": "umb://data-type/90a31acfc48041c992fb3de92d351437",
+          "Name": "Summary"
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/74d15c0d878541f0b87c99a576c16ce5",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/90a31acfc48041c992fb3de92d351437",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/0fede2a9ca3e4ccba2b169236134a786",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "14.1.4"
+}

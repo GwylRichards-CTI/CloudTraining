@@ -1,0 +1,19 @@
+{
+  "Name": "Blog",
+  "Alias": "blog",
+  "File": "umb://template-file/blog.cshtml",
+  "Master": "umb://template/969c2b45a36b4f0aab9e1cdebededadc",
+  "Udi": "umb://template/0fede2a9ca3e4ccba2b169236134a786",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/blog.cshtml",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/969c2b45a36b4f0aab9e1cdebededadc",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "14.1.4"
+}
