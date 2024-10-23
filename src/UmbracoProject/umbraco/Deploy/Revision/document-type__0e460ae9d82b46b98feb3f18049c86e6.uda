@@ -12,10 +12,62 @@
     "AllowedChildContentTypes": []
   },
   "CompositionContentTypes": [],
-  "PropertyGroups": [],
+  "PropertyGroups": [
+    {
+      "Key": "c066c0d5-bbf9-4e7a-b0ff-483f2235aabe",
+      "Name": "Footer",
+      "SortOrder": 1,
+      "Type": 1,
+      "Alias": "footer",
+      "PropertyTypes": [
+        {
+          "Key": "77081c03-c99b-4fc4-9a76-b225cf4fae78",
+          "Alias": "companyAddress",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company address"
+        },
+        {
+          "Key": "976b4388-7386-424f-8ec9-66aca8d94bd2",
+          "Alias": "companyPhone",
+          "DataType": "umb://data-type/90a31acfc48041c992fb3de92d351437",
+          "Name": "Company phone",
+          "SortOrder": 1
+        }
+      ]
+    },
+    {
+      "Key": "c41e4cfb-6e37-4d38-ad86-62a6a433cf05",
+      "Name": "Header",
+      "Type": 1,
+      "Alias": "header",
+      "PropertyTypes": [
+        {
+          "Key": "00604ea7-df8b-4960-bf7d-55be3bf97182",
+          "Alias": "highlightText",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Highlight text",
+          "SortOrder": 1
+        },
+        {
+          "Key": "8c189627-0553-43d0-9ef8-31bd3eaad799",
+          "Alias": "companyName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Company name"
+        }
+      ]
+    }
+  ],
   "PropertyTypes": [],
   "Udi": "umb://document-type/0e460ae9d82b46b98feb3f18049c86e6",
   "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/90a31acfc48041c992fb3de92d351437",
+      "Ordering": true
+    },
     {
       "Udi": "umb://template/9dd8ea51dd7c4092a8cf563a6f19f966",
       "Ordering": true
