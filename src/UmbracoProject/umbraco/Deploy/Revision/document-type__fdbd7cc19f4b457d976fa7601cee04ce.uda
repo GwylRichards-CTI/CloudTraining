@@ -1,0 +1,18 @@
+{
+  "Name": "Collision",
+  "Alias": "collision",
+  "AllowedTemplates": [],
+  "HistoryCleanup": {},
+  "Icon": "icon-wrong color-red",
+  "Thumbnail": "folder.png",
+  "Permissions": {
+    "AllowedChildContentTypes": []
+  },
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/fdbd7cc19f4b457d976fa7601cee04ce",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "14.1.4"
+}
