@@ -1,0 +1,14 @@
+{
+  "Name": "Homepage - Company phone - Text Box Property Editor UI",
+  "EditorAlias": "Umbraco.TextBox",
+  "EditorUiAlias": "Umb.PropertyEditorUi.TextBox",
+  "DatabaseType": "Nvarchar",
+  "Configuration": {
+    "maxChars": 512,
+    "inputType": "text"
+  },
+  "Udi": "umb://data-type/90a31acfc48041c992fb3de92d351437",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "14.1.4"
+}
