@@ -21,7 +21,7 @@
       "PropertyTypes": [
         {
           "Key": "73a8d454-dad4-4b33-8604-0e0ddb493546",
-          "Alias": "content",
+          "Alias": "bodyText",
           "DataType": "umb://data-type/d7723cedc1be4d538e09cdfb79e4c5a5",
           "Name": "Content"
         }
