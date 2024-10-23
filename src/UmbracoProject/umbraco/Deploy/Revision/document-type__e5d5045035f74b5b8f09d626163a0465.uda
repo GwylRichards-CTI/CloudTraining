@@ -31,6 +31,13 @@
           "Alias": "bodyText",
           "DataType": "umb://data-type/d7723cedc1be4d538e09cdfb79e4c5a5",
           "Name": "Content"
+        },
+        {
+          "Key": "9352df81-c6d8-46f8-9d1c-9ddbd048c085",
+          "Alias": "pickContent",
+          "DataType": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+          "Name": "Pick Content",
+          "SortOrder": 2
         }
       ]
     }
@@ -44,6 +51,10 @@
     },
     {
       "Udi": "umb://data-type/d7723cedc1be4d538e09cdfb79e4c5a5",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
       "Ordering": true
     },
     {
