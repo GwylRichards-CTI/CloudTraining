@@ -2,10 +2,15 @@
   "Name": "Homepage",
   "Alias": "homepage",
   "File": "umb://template-file/homepage.cshtml",
+  "Master": "umb://template/969c2b45a36b4f0aab9e1cdebededadc",
   "Udi": "umb://template/9dd8ea51dd7c4092a8cf563a6f19f966",
   "Dependencies": [
     {
       "Udi": "umb://template-file/homepage.cshtml",
+      "Ordering": true
+    },
+    {
+      "Udi": "umb://template/969c2b45a36b4f0aab9e1cdebededadc",
       "Ordering": true
     }
   ],
