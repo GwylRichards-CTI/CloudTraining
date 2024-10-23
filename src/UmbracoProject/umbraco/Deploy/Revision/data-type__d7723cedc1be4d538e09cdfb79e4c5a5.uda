@@ -1,0 +1,29 @@
+{
+  "Name": "Text page - Content - Rich Text Editor Property Editor UI",
+  "EditorAlias": "Umbraco.RichText",
+  "EditorUiAlias": "Umb.PropertyEditorUi.TinyMCE",
+  "Configuration": {
+    "toolbar": [
+      "styles",
+      "bold",
+      "italic",
+      "alignleft",
+      "aligncenter",
+      "alignright",
+      "bullist",
+      "numlist",
+      "outdent",
+      "indent",
+      "sourcecode",
+      "link",
+      "umbmediapicker",
+      "umbembeddialog"
+    ],
+    "mode": "Classic",
+    "maxImageSize": 500
+  },
+  "Udi": "umb://data-type/d7723cedc1be4d538e09cdfb79e4c5a5",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "14.1.4"
+}
