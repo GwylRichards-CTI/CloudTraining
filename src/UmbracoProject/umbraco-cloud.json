@@ -1,7 +1,18 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "gwylims reliable polar bear",
+      "Alias": "gwylims-reliable-polar-bear",
+      "Id": "96796d8f-24c4-4675-a89d-fda14505161e",
+      "TrialExpireDate": "2024-11-06T10:14:01.0000000",
+      "Workspaces": [
+        {
+          "Id": "9ae6ed9a-aeeb-49be-a680-262678e2a0cc",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://gwylims-reliable-polar-bear.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
