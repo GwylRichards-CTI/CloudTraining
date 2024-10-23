@@ -7,6 +7,12 @@
       "TrialExpireDate": "2024-11-06T10:14:01.0000000",
       "Workspaces": [
         {
+          "Id": "d02e474f-7a26-4051-a138-1ba7a75efd2a",
+          "Name": "Development",
+          "Type": "development",
+          "Url": "https://dev-gwylims-reliable-polar-bear.euwest01.umbraco.io"
+        },
+        {
           "Id": "9ae6ed9a-aeeb-49be-a680-262678e2a0cc",
           "Name": "Live",
           "Type": "live",
