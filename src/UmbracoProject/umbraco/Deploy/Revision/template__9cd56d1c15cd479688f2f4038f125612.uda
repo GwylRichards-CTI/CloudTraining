@@ -1,0 +1,14 @@
+{
+  "Name": "Text page",
+  "Alias": "textPage",
+  "File": "umb://template-file/textPage.cshtml",
+  "Udi": "umb://template/9cd56d1c15cd479688f2f4038f125612",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/textPage.cshtml",
+      "Ordering": true
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "14.1.4"
+}
